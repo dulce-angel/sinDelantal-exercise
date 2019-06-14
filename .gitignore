@@ -31,3 +31,14 @@
 
 # "temporary" build files
 /target
+
+#intellij files
+.classpath
+.project
+.settings
+.idea
+.metadata
+*.iml
+*.ipr
+grailsw*
+.slcache

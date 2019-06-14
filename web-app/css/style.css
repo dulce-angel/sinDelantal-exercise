@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+
+body{
+    background-color: #333333;
+    font-family: "Quicksand", sans-serif;
+}
+
+.main-div {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 3rem;
+    margin: 80px auto 30px;
+    max-width: 38%;
+    padding: 50px 70px 70px 71px;
+}
+
+.hidden {
+    display: none;
+}
+
+.divTable{
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 3rem;
+    margin: 80px auto 30px;
+    padding: 50px 70px 70px 71px;
+    max-width: 70%;
+}
+
+#dataTable th {
+    width: 0px !important;
+}
+
+#dataTable {
+    border-radius: 3rem;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 3rem;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 3rem;
+}
+
+table tr:first-child th:first-child {
+    border-top-left-radius: 3rem;
+}
+
+table tr:first-child th:last-child {
+    border-top-right-radius: 3rem;
+}
